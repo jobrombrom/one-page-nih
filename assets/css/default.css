@@ -29,6 +29,9 @@ h1 {
   padding: 0;
   color: var(--offwhite);
   font-family: 'Padauk', sans-serif;
+}
+
+body {
   background-color: var(--darkblue);
 }
 
@@ -135,4 +138,30 @@ h1 {
     transform: translateY(-8px) rotate(-45deg);
   }
 
+}
+
+/* Tagline */
+
+.left-side {
+  text-align: left;
+}
+
+.left-side span {
+  color: var(--goldenyellow);
+}
+
+.right-side {
+  text-align: right;
+}
+
+.right-side span {
+  color: var(--lightpink);
+}
+
+.tagline {
+  margin-top: 10rem;
+}
+
+.tagline h2{
+  font-size: 4rem;
 }
